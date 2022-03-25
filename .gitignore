@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+Data/
+Figures/
+GDCdata/
+Results
+MANIFEST.txt
