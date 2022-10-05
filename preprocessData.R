@@ -1,5 +1,4 @@
-library(dplyr)
-library(plyr)
+library(tidyverse)
 
 # Loads raw clinical data
 clin <- read.csv('./Data/clinical.csv')
