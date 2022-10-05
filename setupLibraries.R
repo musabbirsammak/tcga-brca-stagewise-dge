@@ -1,5 +1,6 @@
 list.of.packages <- c("dplyr", "plyr", "stringr", "ggplot2", "ggpubr")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+install.packages(new.packages)
 
 if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
